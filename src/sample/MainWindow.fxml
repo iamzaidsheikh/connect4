@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <GridPane alignment="center" gridLinesVisible="true">
+            <ImageView fx:id="imageView00" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#imageViewClicked" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView01" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView02" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView03" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView04" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="4" GridPane.rowIndex="0">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView05" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="5" GridPane.rowIndex="0">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView06" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="6" GridPane.rowIndex="0">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+
+            <ImageView fx:id="imageView10" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView11" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView12" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView13" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView14" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView15" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView16" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView20" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView21" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView22" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView23" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView24" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView25" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView26" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView30" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView31" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView32" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView33" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView34" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView35" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView36" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView40" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView41" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView42" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView43" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView44" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView45" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView46" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView50" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="0" GridPane.rowIndex="5">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView51" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView52" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView53" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView54" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView55" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+            <ImageView fx:id="imageView56" fitHeight="50" fitWidth="50" onMouseClicked="#imageViewClicked" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                  <Image url="@resources/images/blank.png" />
+            </ImageView>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+   </center>
+   <bottom>
+      <VBox alignment="BOTTOM_CENTER">
+         <Label fx:id="label" prefHeight="20" />
+         <Button fx:id="restartButton" onAction="#restartGame" prefHeight="20" text="Restart Game" />
+      </VBox>
+   </bottom>
+</BorderPane>
